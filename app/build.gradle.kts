@@ -51,9 +51,9 @@ android {
   signingConfigs {
       create("release") {
           storeFile = file("../mmp-release.jks")
-          storePassword = "92812340"
+          storePassword = "你怎么还想看我密码"
           keyAlias = "mmp"
-          keyPassword = "92812340"
+          keyPassword = "签名都没了"
       }
   }
   buildTypes {
