@@ -1,0 +1,28 @@
+# 签名密钥（绝对不传）
+*.jks
+*.keystore
+
+# 本地配置（含 SDK 路径、密码）
+local.properties
+gradle.properties
+
+# Gradle 缓存和构建产物
+.gradle/
+build/
+app/build/
+
+# IDE 配置
+.idea/
+*.iml
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 临时文件
+*.tmp
+*.bak
